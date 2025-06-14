@@ -270,6 +270,8 @@ def download_chart(n_clicks, company_name):
 test_fig = generate_figure(df_default)
 test_fig.write_image("test_plot.png")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
+app = Dash(__name__)
+server = app.server  # <-- THIS LINE is necessary
