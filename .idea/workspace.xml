@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e854aa2-6748-4d5e-89fb-482b7a2866d0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_plot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
