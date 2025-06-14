@@ -122,6 +122,7 @@ def generate_figure(df, company_name=""):
 # Dash app init
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = "DMM"
+app.config.suppress_callback_exceptions = True
 
 # Layout
 app.layout = dbc.Container([
@@ -268,10 +269,9 @@ def download_chart(n_clicks, company_name):
 
 
 test_fig = generate_figure(df_default)
-test_fig.write_image("test_plot.png")
+# test_fig.write_image("test_plot.png")
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
 
-app = Dash(__name__)
-server = app.server  # <-- THIS LINE is necessary
+server = app.server
