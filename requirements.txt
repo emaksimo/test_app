@@ -5,6 +5,6 @@ pandas
 plotly
 numpy
 gunicorn
-dash_bootstrap_componentss
+dash_bootstrap_components
 
 
