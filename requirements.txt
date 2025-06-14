@@ -8,3 +8,4 @@ gunicorn
 dash_bootstrap_components
 kaleido
 datetime
+openpyxl
